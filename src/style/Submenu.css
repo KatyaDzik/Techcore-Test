@@ -1,0 +1,107 @@
+.submenu{
+    background-color: #F5F9FE;
+    border-right: 1px solid rgba(46, 91, 255, 0.1);
+    height: 100vh;
+    position: relative;
+    z-index: 12;
+    width: 12px;
+}
+
+.open{
+    width: 240px;
+    z-index: 1;
+}
+
+.btn2{
+    position: absolute;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(46, 91, 255, 0.1);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 78px;
+    z-index:5;
+    cursor: pointer;
+}
+
+.off{
+    left:2px;
+}
+
+.off::before{
+    content: url('../img/Arrow.png');
+    position: absolute;
+    left: 5px;
+    top: 0px;
+}
+
+.on{
+    left: 228px;
+}
+
+.on::before{
+    content: url('../img/Arrow_switch.png');
+    position: absolute;
+    left: 5px;
+    top: 0px;
+}
+
+.content{
+    display: none;
+}
+
+.con_on{
+    display: block;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #AFB6C6 !important;
+    margin-left: 24px;
+    padding-top: 24px;
+}
+
+.line{
+    list-style-type: none;
+    display: inline-block;
+    color: #1E212A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.general_settings{
+    background: url("../img/general_setting.png") no-repeat center center;
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    display: inline-block;
+}
+ul{
+    margin-left:24px;
+    padding: 0;
+
+}
+.vacation_manager{
+    background: url("../img/booking.png") no-repeat center center;
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    display: inline-block;
+}
+
+.sub_sub_menu{
+    padding-left: 13px;
+    margin-left: 20px;
+}
+
+.sub_sub_menu li{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+}

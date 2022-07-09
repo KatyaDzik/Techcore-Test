@@ -1,0 +1,121 @@
+.wrap_card{
+    background: #FFFFFF;
+    /* Shadow small */
+
+    box-shadow: 2px 2px 15px rgba(0, 44, 175, 0.05);
+    border-radius: 6px;
+    width: 33%;
+    height: 173px;
+    position: relative;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+.log{
+    display: flex;
+}
+.log h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1E212A;
+    width: 25%;
+}
+
+.log a{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #00A0EC;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+.log a:hover{
+    text-decoration-line: underline;
+}
+.wrap_card h5{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 140%;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 24px;
+}
+
+.wrap_card h5:hover{
+    cursor: pointer;
+    color: #00A0EC;
+}
+
+.pictures{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+
+}
+
+.pictures img{
+    border-radius: 100px;
+    margin-right: 4px;
+}
+
+.default{
+    background: #00A0EC;
+    border-radius: 1000px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3px 14px;
+}
+
+.card_menu{
+    position: absolute;
+    display: none;
+}
+
+.switch{
+    color: #AFB6C6;
+    font-size: 18px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    padding: 0px 12px 6px 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.switch:hover{
+    background-color: #EEF7FC;
+    color: #00A0EC;
+}
+
+.open_menu{
+    display: block;
+    position: absolute;
+    transform: rotate(-90deg);
+    background: #FFFFFF;
+    border: 0.1px solid #EEF0F6;
+    box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.05), 2px 2px 15px rgba(0, 44, 175, 0.05);
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1E212A;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.open_menu li{
+    list-style-type: none;
+    padding: 8px;
+
+}
+
+.open_menu li:hover{
+    color: #00A0EC;
+}

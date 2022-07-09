@@ -1,0 +1,60 @@
+.main_cnt{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: block;
+    top:0;
+    width: 100%;
+    background-color: #FFFF;
+}
+
+h2.main_title{
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1E212A;
+    margin-top: 8px;
+}
+
+div.paragraf_create{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+div.paragraf_create p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+div.paragraf_create button{
+    background: #00A0EC;
+    border-radius: 6px;
+    width: 152px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border:none;
+    position: relative;
+    bottom: 47px;
+}
+
+div.paragraf_create button:hover{
+    cursor: pointer;
+    background: #0683DD;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

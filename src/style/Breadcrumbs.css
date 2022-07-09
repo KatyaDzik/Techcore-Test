@@ -1,0 +1,43 @@
+.wrapper_breadcrums{
+    margin-top: 24px;
+}
+.icon_section{
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+.dashboard_icon{
+    background: url('../img/active_menu_btn/home_blue.png') no-repeat center center;
+}
+
+.users_icon{
+    background: url('../img/active_menu_btn/group_blue.png') no-repeat center center;
+}
+
+.setting_icon{
+    background: url('../img/active_menu_btn/setting_blue.png') no-repeat center center;
+}
+
+.pl_icon{
+    background: url('../img/active_menu_btn/folder_blue.png') no-repeat center center;
+}
+
+.vacation_icon{
+    background: url('../img/active_menu_btn/vacation-manager_blue.png') no-repeat center center;
+}
+
+.bread_link{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.ant-breadcrumb a{
+    color: #00A0EC !important;
+
+}
